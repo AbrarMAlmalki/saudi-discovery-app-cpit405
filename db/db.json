@@ -1,0 +1,575 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "$2a$10$dummyhash",
+      "role": "user",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "preferences": {
+        "sports": [],
+        "regions": []
+      }
+    },
+    {
+      "id": "NskSMoosqN4",
+      "name": "queen abrar",
+      "email": "abrar@gmail.com",
+      "password": "$2b$10$35GhKRkp2AEPy9mUmh6tLuL9pGAZcu5sq8VUuYdroEqTHtKW46nkm",
+      "role": "user",
+      "preferences": {
+        "sports": [
+          "E-Sports"
+        ],
+        "regions": [
+          "Makkah"
+        ]
+      },
+      "createdAt": "2026-05-10T23:26:38.661Z"
+    },
+    {
+      "id": "Skmxrt0JYtE",
+      "name": "sa",
+      "email": "sa@gmail.com",
+      "password": "$2b$10$A2419SNxn/3zQICt3JuMo.GemVIa9d5lNTKeZLAj8A6RCopNq1wry",
+      "role": "user",
+      "preferences": {
+        "sports": [
+          "E-Sports"
+        ],
+        "regions": [
+          "Jeddah",
+          "Eastern Province"
+        ]
+      },
+      "createdAt": "2026-05-11T22:01:43.404Z"
+    },
+    {
+      "id": "jKjECMwe0J8",
+      "name": "Queen Abrar",
+      "email": "Abrar2003@gmail.com",
+      "password": "$2b$10$oaJaE.WhcBCI254WA4jAhOiINAkFZE9XNW5UqwE7ckU0FUFRa5mZy",
+      "role": "user",
+      "preferences": {
+        "sports": [
+          "Athletics"
+        ],
+        "regions": [
+          "Eastern Province"
+        ]
+      },
+      "createdAt": "2026-05-21T07:50:34.303Z"
+    },
+    {
+      "id": "NFGvODobm7E",
+      "name": "Abrar almalki",
+      "email": "abrar2203@gmail.com",
+      "password": "$2b$10$ADxI2wUAMMYRgxq.Fa0a4eq9ycEVECNHMPFgatNagRJ7e2RYBPQRC",
+      "role": "user",
+      "preferences": {
+        "sports": [
+          "Athletics",
+          "Football"
+        ],
+        "regions": [
+          "Makkah"
+        ]
+      },
+      "createdAt": "2026-05-21T08:53:30.159Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "RvBVGVvoD_Q",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "eventTitle": "Asir Track & Field",
+      "eventDate": "2026-05-22",
+      "eventTime": "12:30",
+      "venue": "Asir National Park",
+      "region": "Asir",
+      "sport": "Athletics",
+      "ticketType": "premium",
+      "quantity": 10,
+      "pricePerTicket": 300,
+      "totalPrice": 3000,
+      "bookingDate": "2026-05-10T23:27:12.097Z",
+      "status": "cancelled",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778455632096-43L1H9Q0",
+      "seats": [
+        "G1-15",
+        "J13-16",
+        "G15-14",
+        "J2-1",
+        "G3-11",
+        "H8-12",
+        "G3-18",
+        "J7-14",
+        "G4-12",
+        "H3-19"
+      ],
+      "cancelledAt": "2026-05-10T23:45:33.676Z"
+    },
+    {
+      "id": "LZ-zhXrE-gc",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_014",
+      "eventTitle": "AlUla Slam Dunk",
+      "eventDate": "2026-06-04",
+      "eventTime": "16:00",
+      "venue": "AlUla Desert Arena",
+      "region": "AlUla",
+      "sport": "Basketball",
+      "ticketType": "standard",
+      "quantity": 1,
+      "pricePerTicket": 60,
+      "totalPrice": 60,
+      "bookingDate": "2026-05-10T23:31:22.074Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778455882074-FYS99GB3",
+      "seats": [
+        "C12-2"
+      ]
+    },
+    {
+      "id": "vacrNKRg9CY",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "eventTitle": "Asir Track & Field",
+      "eventDate": "2026-05-22",
+      "eventTime": "12:30",
+      "venue": "Asir National Park",
+      "region": "Asir",
+      "sport": "Athletics",
+      "ticketType": "standard",
+      "quantity": 1,
+      "pricePerTicket": 50,
+      "totalPrice": 50,
+      "bookingDate": "2026-05-10T23:32:48.228Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778455968228-5C8NP250",
+      "seats": [
+        "C3-10"
+      ]
+    },
+    {
+      "id": "P470CCOcask",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "eventTitle": "Asir Track & Field",
+      "eventDate": "2026-05-22",
+      "eventTime": "12:30",
+      "venue": "Asir National Park",
+      "region": "Asir",
+      "sport": "Athletics",
+      "ticketType": "standard",
+      "quantity": 1,
+      "pricePerTicket": 50,
+      "totalPrice": 50,
+      "bookingDate": "2026-05-10T23:33:21.891Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778456001891-CZNJ0GUO",
+      "seats": [
+        "B10-9"
+      ]
+    },
+    {
+      "id": "UArXEwqZ3Us",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "eventTitle": "Asir Track & Field",
+      "eventDate": "2026-05-22",
+      "eventTime": "12:30",
+      "venue": "Asir National Park",
+      "region": "Asir",
+      "sport": "Athletics",
+      "ticketType": "standard",
+      "quantity": 1,
+      "pricePerTicket": 50,
+      "totalPrice": 50,
+      "bookingDate": "2026-05-10T23:36:48.640Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778456208640-7F5T5B4B",
+      "seats": [
+        "B5-1"
+      ]
+    },
+    {
+      "id": "jZXXlYGpdqI",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "eventTitle": "Asir Track & Field",
+      "eventDate": "2026-05-22",
+      "eventTime": "12:30",
+      "venue": "Asir National Park",
+      "region": "Asir",
+      "sport": "Athletics",
+      "ticketType": "premium",
+      "quantity": 1,
+      "pricePerTicket": 300,
+      "totalPrice": 300,
+      "bookingDate": "2026-05-10T23:40:35.023Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778456435023-GIKEEHUY",
+      "seats": [
+        "G15-18"
+      ]
+    },
+    {
+      "id": "YYlCm7DsgX4",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_027",
+      "eventTitle": "Pro League: Eastern Province Match",
+      "eventDate": "2026-07-20",
+      "eventTime": "15:30",
+      "venue": "Dammam Stadium",
+      "region": "Eastern Province",
+      "sport": "Football",
+      "ticketType": "standard",
+      "quantity": 1,
+      "pricePerTicket": 80,
+      "totalPrice": 80,
+      "bookingDate": "2026-05-10T23:45:25.744Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778456725744-M6NP2ZF9",
+      "seats": [
+        "B6-13"
+      ]
+    },
+    {
+      "id": "0b_vRhEe6VI",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_004",
+      "eventTitle": "International Championship",
+      "eventDate": "2026-06-13",
+      "eventTime": "09:00",
+      "venue": "Asir National Park",
+      "region": "Asir",
+      "sport": "Tennis",
+      "ticketType": "premium",
+      "quantity": 3,
+      "pricePerTicket": 400,
+      "totalPrice": 1200,
+      "bookingDate": "2026-05-10T23:55:07.606Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1778457307606-D24WH1S8",
+      "seats": [
+        "G6-12",
+        "J12-1",
+        "G1-14"
+      ]
+    },
+    {
+      "id": "N-wTE87EDXI",
+      "userId": "Skmxrt0JYtE",
+      "eventId": "evt_012",
+      "eventTitle": "Heritage Games",
+      "eventDate": "2026-08-06",
+      "eventTime": "17:30",
+      "venue": "Prince Mohammed Stadium",
+      "region": "Al Madinah",
+      "sport": "Traditional",
+      "ticketType": "vip",
+      "quantity": 3,
+      "pricePerTicket": 90,
+      "totalPrice": 270,
+      "bookingDate": "2026-05-21T02:07:21.271Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1779329241271-M49AAMR9",
+      "seats": [
+        "E5-20",
+        "E5-2",
+        "F9-7"
+      ]
+    },
+    {
+      "id": "_LbNoMVxnx0",
+      "userId": "Skmxrt0JYtE",
+      "eventId": "evt_028",
+      "eventTitle": "Jeddah Marathon",
+      "eventDate": "2026-06-08",
+      "eventTime": "13:30",
+      "venue": "Prince Abdullah Al Faisal Stadium",
+      "region": "Jeddah",
+      "sport": "Athletics",
+      "ticketType": "premium",
+      "quantity": 1,
+      "pricePerTicket": 300,
+      "totalPrice": 300,
+      "bookingDate": "2026-05-21T02:46:34.189Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1779331594188-28JVBAL4",
+      "seats": [
+        "G2-4"
+      ]
+    },
+    {
+      "id": "3g4MNKqSk-4",
+      "userId": "Skmxrt0JYtE",
+      "eventId": "evt_020",
+      "eventTitle": "Makkah Marathon",
+      "eventDate": "2026-06-15",
+      "eventTime": "19:30",
+      "venue": "King Abdulaziz Stadium",
+      "region": "Makkah",
+      "sport": "Athletics",
+      "ticketType": "premium",
+      "quantity": 1,
+      "pricePerTicket": 300,
+      "totalPrice": 300,
+      "bookingDate": "2026-05-21T07:49:33.545Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1779349773545-O1W94SK5",
+      "seats": [
+        "G7-11"
+      ]
+    },
+    {
+      "id": "0yG3tKWDJHg",
+      "userId": "jKjECMwe0J8",
+      "eventId": "evt_003",
+      "eventTitle": "National Swimming Champs",
+      "eventDate": "2026-06-03",
+      "eventTime": "14:00",
+      "venue": "Makkah Sports Complex",
+      "region": "Makkah",
+      "sport": "Swimming",
+      "ticketType": "standard",
+      "quantity": 2,
+      "pricePerTicket": 40,
+      "totalPrice": 80,
+      "bookingDate": "2026-05-21T08:19:47.119Z",
+      "status": "cancelled",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1779351587119-XKP0FIS4",
+      "seats": [
+        "C6-8",
+        "C12-5"
+      ],
+      "cancelledAt": "2026-05-21T08:43:51.693Z"
+    },
+    {
+      "id": "J241IZjpJLo",
+      "userId": "jKjECMwe0J8",
+      "eventId": "evt_003",
+      "eventTitle": "National Swimming Champs",
+      "eventDate": "2026-06-03",
+      "eventTime": "14:00",
+      "venue": "Makkah Sports Complex",
+      "region": "Makkah",
+      "sport": "Swimming",
+      "ticketType": "premium",
+      "quantity": 2,
+      "pricePerTicket": 250,
+      "totalPrice": 500,
+      "bookingDate": "2026-05-21T08:25:26.159Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1779351926159-6BHQ7KC2",
+      "seats": [
+        "J9-18",
+        "J6-10"
+      ]
+    },
+    {
+      "id": "78xix7Lwojc",
+      "userId": "jKjECMwe0J8",
+      "eventId": "evt_013",
+      "eventTitle": "Heritage Games",
+      "eventDate": "2026-05-28",
+      "eventTime": "17:00",
+      "venue": "King Fahd Stadium",
+      "region": "Riyadh",
+      "sport": "Traditional",
+      "ticketType": "vip",
+      "quantity": 3,
+      "pricePerTicket": 90,
+      "totalPrice": 270,
+      "bookingDate": "2026-05-21T08:42:29.384Z",
+      "status": "confirmed",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1779352949384-XSVJP3VG",
+      "seats": [
+        "D11-11",
+        "E11-4",
+        "E4-7"
+      ]
+    },
+    {
+      "id": "HSdeGqDvwxs",
+      "userId": "NFGvODobm7E",
+      "eventId": "evt_025",
+      "eventTitle": "Makkah Beach Volley",
+      "eventDate": "2026-05-31",
+      "eventTime": "09:00",
+      "venue": "King Abdulaziz Stadium",
+      "region": "Makkah",
+      "sport": "Volleyball",
+      "ticketType": "premium",
+      "quantity": 4,
+      "pricePerTicket": 280,
+      "totalPrice": 1120,
+      "bookingDate": "2026-05-21T08:58:19.120Z",
+      "status": "cancelled",
+      "qrCode": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=TKT-1779353899120-64X2ICZW",
+      "seats": [
+        "G2-1",
+        "J8-1",
+        "H5-3",
+        "J6-17"
+      ],
+      "cancelledAt": "2026-05-21T08:58:34.228Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "FIyixk6s_Ao",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "ticketId": "TKT-1778455632096-43L1H9Q0",
+      "bookingDate": "2026-05-10T23:27:12.109Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 3000
+    },
+    {
+      "id": "ndG6tIX0kFY",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_014",
+      "ticketId": "TKT-1778455882074-FYS99GB3",
+      "bookingDate": "2026-05-10T23:31:22.083Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 60
+    },
+    {
+      "id": "d5FvT7b6pPw",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "ticketId": "TKT-1778455968228-5C8NP250",
+      "bookingDate": "2026-05-10T23:32:48.241Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 50
+    },
+    {
+      "id": "zk19ud9rAxE",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "ticketId": "TKT-1778456001891-CZNJ0GUO",
+      "bookingDate": "2026-05-10T23:33:21.901Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 50
+    },
+    {
+      "id": "B2jJ5UfbRJs",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "ticketId": "TKT-1778456208640-7F5T5B4B",
+      "bookingDate": "2026-05-10T23:36:48.651Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 50
+    },
+    {
+      "id": "b_BtMssOEG0",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_016",
+      "ticketId": "TKT-1778456435023-GIKEEHUY",
+      "bookingDate": "2026-05-10T23:40:35.063Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 300
+    },
+    {
+      "id": "r6WgcvhDJDc",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_027",
+      "ticketId": "TKT-1778456725744-M6NP2ZF9",
+      "bookingDate": "2026-05-10T23:45:25.759Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 80
+    },
+    {
+      "id": "b2LEZhA2C4Q",
+      "userId": "NskSMoosqN4",
+      "eventId": "evt_004",
+      "ticketId": "TKT-1778457307606-D24WH1S8",
+      "bookingDate": "2026-05-10T23:55:07.623Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 1200
+    },
+    {
+      "id": "pBzdZSKMLC4",
+      "userId": "Skmxrt0JYtE",
+      "eventId": "evt_012",
+      "ticketId": "TKT-1779329241271-M49AAMR9",
+      "bookingDate": "2026-05-21T02:07:21.304Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 270
+    },
+    {
+      "id": "ggjPFC-MM0w",
+      "userId": "Skmxrt0JYtE",
+      "eventId": "evt_028",
+      "ticketId": "TKT-1779331594188-28JVBAL4",
+      "bookingDate": "2026-05-21T02:46:34.253Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 300
+    },
+    {
+      "id": "CVcbbGrqUqQ",
+      "userId": "Skmxrt0JYtE",
+      "eventId": "evt_020",
+      "ticketId": "TKT-1779349773545-O1W94SK5",
+      "bookingDate": "2026-05-21T07:49:33.693Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 300
+    },
+    {
+      "id": "034BUhGMdsA",
+      "userId": "jKjECMwe0J8",
+      "eventId": "evt_003",
+      "ticketId": "TKT-1779351587119-XKP0FIS4",
+      "bookingDate": "2026-05-21T08:19:47.173Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 80
+    },
+    {
+      "id": "rYLbP2jrWuA",
+      "userId": "jKjECMwe0J8",
+      "eventId": "evt_003",
+      "ticketId": "TKT-1779351926159-6BHQ7KC2",
+      "bookingDate": "2026-05-21T08:25:26.206Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 500
+    },
+    {
+      "id": "o_bVLBR06GA",
+      "userId": "jKjECMwe0J8",
+      "eventId": "evt_013",
+      "ticketId": "TKT-1779352949384-XSVJP3VG",
+      "bookingDate": "2026-05-21T08:42:29.432Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 270
+    },
+    {
+      "id": "2zWS7Y2F2Tk",
+      "userId": "NFGvODobm7E",
+      "eventId": "evt_025",
+      "ticketId": "TKT-1779353899120-64X2ICZW",
+      "bookingDate": "2026-05-21T08:58:19.173Z",
+      "paymentMethod": "credit_card",
+      "status": "completed",
+      "totalAmount": 1120
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
