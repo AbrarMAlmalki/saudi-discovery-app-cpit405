@@ -1,0 +1,97 @@
+/* Replace your entire Navbar.css with this athletic theme */
+
+.navbar {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-size: 28px;
+  color: #ff6b6b;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  color: #ff6b6b;
+  background: rgba(255,255,255,0.1);
+}
+
+.btn-signup {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.btn-signup:hover {
+  background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.user-greeting {
+  color: #ff6b6b;
+  font-weight: 500;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 2px solid rgba(255,255,255,0.2);
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .user-greeting {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+  }
+}
